@@ -4,7 +4,9 @@
     "author": "SaturnKai",
     "private": true,
     "scripts": {
-        "dev": "nodemon server.ts"
+        "dev": "nodemon src/server.ts",
+        "build": "tsc -p .",
+        "start": "node dist/server"
     },
     "devDependencies": {
         "@types/express": "^4.17.21",
