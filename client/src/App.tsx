@@ -35,7 +35,8 @@ export default function App() {
 	};
 
 	useEffect(() => {
-		socketRef.current = new WebSocket('ws://localhost:3000');
+		const protocol = location.host.includes('localhost') ? 'ws' : 'wss';
+		socketRef.current = new WebSocket(`${protocol}://${location.host}`);
 		const socket = socketRef.current;
 
 		socket.onmessage = (e) => {
