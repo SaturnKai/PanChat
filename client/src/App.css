@@ -1,0 +1,36 @@
+.messages {
+	margin: 40px 50px;
+}
+
+.message {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1rem;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.server-header {
+	color: #f00;
+}
+
+.client-header {
+	color: #0cc;
+}
+
+.current-client-header {
+	color: #ecb130;
+}
+
+.messageInput {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1rem;
+	position: absolute;
+	bottom: 20px;
+	/* left: 20px; */
+	background: none;
+	border: none;
+	color: #fff;
+	outline: none;
+	width: 100%;
+	padding-left: 20px;
+}

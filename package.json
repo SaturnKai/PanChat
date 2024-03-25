@@ -1,0 +1,21 @@
+{
+    "name": "panchat-server",
+    "version": "1.0.0",
+    "author": "SaturnKai",
+    "private": true,
+    "scripts": {
+        "dev": "nodemon server.ts"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/ws": "^8.5.10",
+        "nodemon": "^3.1.0",
+        "prisma": "^5.11.0",
+        "typescript": "^5.4.3"
+    },
+    "dependencies": {
+        "@prisma/client": "^5.11.0",
+        "express": "^4.19.1",
+        "ws": "^8.16.0"
+    }
+}
